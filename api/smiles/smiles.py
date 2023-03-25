@@ -1,7 +1,8 @@
 class Smiles:
-
-    def smiles(self):
+    @staticmethod
+    def smiles():
         return ":)"
 
-    def frown(self):
-      return ":("
+    @staticmethod
+    def frown():
+        return ":("
